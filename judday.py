@@ -501,7 +501,7 @@ def foo(bar):
     	print("z: " + str(accel_data['z']))
     	accel_data['z']=accel_data['z']-2.65
     	accel_data['x']=accel_data['x']-0.31
-    	accel_data['z']=accel_data['z']-0.16
+    	accel_data['y']=accel_data['y']-0.16
     	ax_value = str(accel_data['x'])
     	ay_value = str(accel_data['y'])
     	az_value = str(accel_data['z'])
